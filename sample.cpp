@@ -4,7 +4,7 @@ int sum(int, int);
 
 int main()
 {
-    int a = 1; int b = 9;
+    int a = 3; int b = 6;
     std::cout << sum(a, b)<< std::endl;
     return 0;
 }
