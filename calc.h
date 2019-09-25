@@ -8,8 +8,8 @@ private:
     int div();
 
 public:
-    int mul1;
-    int mul2;
+    int num1;
+    int num2;
 };
 
 #endif // _CALC_H_
