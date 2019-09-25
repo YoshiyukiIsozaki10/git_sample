@@ -2,6 +2,8 @@
 #define _CALC_H_
 class Calc{
 private:
+    void set1(int a);
+    void set2(int b);
     int add();
     int sub();
     int mul();

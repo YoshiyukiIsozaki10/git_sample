@@ -1,5 +1,15 @@
 #include "calc.h"
 
+void Calc::set1(int a)
+{
+    num1 = a;
+}
+
+void Calc::set2(int b)
+{
+    num2 = b;
+}
+
 int Calc::add()
 {
     return num1 + num2;
