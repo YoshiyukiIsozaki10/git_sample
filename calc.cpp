@@ -1,31 +1,30 @@
 #include "calc.h"
 
-void Calc::set1(int a)
+void Calc::set1(double a)
 {
     num1 = a;
 }
 
-void Calc::set2(int b)
+void Calc::set2(double b)
 {
     num2 = b;
 }
 
-int Calc::add()
+double Calc::add()
 {
     return num1 + num2;
 }
-
-int Calc::sub()
+double Calc::sub()
 {
     return num1 - num2;
 }
 
-int Calc::mul()
+double Calc::mul()
 {
     return num1 * num2;
 }
 
-int Calc::div()
+double Calc::div()
 {
     return num1 / num2;
 }
